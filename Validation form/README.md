@@ -46,3 +46,7 @@ app.js - Implements form validation logic.
 Improve UI/UX with animations.
 Store form data using local storage.
 Add API integration for backend validation.
+
+## License
+
+This project is open-source and available under the MIT License.

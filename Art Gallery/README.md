@@ -47,3 +47,7 @@ The **Art Gallery Web Project** is a simple and elegant web page showcasing vari
 ## Contributing
 
 Feel free to fork this repository and submit pull requests. Contributions are always welcome!
+
+## License
+
+This project is open-source and available under the MIT License.
