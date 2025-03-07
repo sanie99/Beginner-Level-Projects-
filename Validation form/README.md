@@ -39,6 +39,8 @@ app.js - Implements form validation logic.
 
 ## Preview
 
+![alt text](image-1.png)
+
 ## Future Enhancements
 
 Improve UI/UX with animations.
