@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: linear-gradient(white, crimson);
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: rgb(7, 7, 12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 500px;
+  width: 300px;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px double white;
+  box-shadow: 5px 5px 3px white;
+}
+
+.input-container {
+  padding: 15px;
+}
+
+.input-container.error input {
+  border-color: red;
+}
+
+.input-container.success input {
+  border-color: rgb(97, 249, 97);
+}
+
+.submit {
+  margin: 10px;
+  color: black;
+  font-size: 15px;
+  height: 30px;
+  width: 150px;
+  background: linear-gradient(white, crimson);
+}
+
+.already {
+  line-height: 25px;
+  margin: 5px;
+  color: white;
+  text-align: center;
+}
+
+.already a {
+  color: white;
+}
+
+.img-container {
+  height: 550px;
+  width: 850px;
+  margin-left: 30px;
+  background: linear-gradient(white, rgb(96, 35, 35));
+}
+
+img {
+  height: 500px;
+  width: 800px;
+  box-shadow: 2px 2px 2px 3px white;
+  transform: translate(20px, 20px);
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4rem;
+  color: white;
+  font-style: italic;
+  text-shadow: 3px 3px 3px black;
+  transform: translate(60px, -120px);
+}
+
+.input-container .msg {
+  visibility: hidden;
+}

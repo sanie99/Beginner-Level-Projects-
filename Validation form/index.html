@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <form>
+        <div class="input-container">
+          <input type="text" class="username" placeholder="Name" />
+          <p class="user-msg msg">Error Message</p>
+        </div>
+
+        <div class="input-container">
+          <input type="email" class="email" placeholder="Email address" />
+          <p class="email-msg msg">Error Message</p>
+        </div>
+
+        <div class="input-container">
+          <input type="password" class="password1" placeholder="Password" />
+          <p class="password1-msg msg">Error Message</p>
+        </div>
+
+        <div class="input-container">
+          <input
+            type="password"
+            class="password2"
+            placeholder="Confirm Password"
+          />
+          <p class="password2-msg msg">Error Message</p>
+        </div>
+
+        <div class="input-container">
+          <input type="submit" class="submit" placeholder="Submit" />
+          <p class="submit-msg msg">Incorrect Information</p>
+        </div>
+      </form>
+
+      <p class="already">
+        Already have an account? <br />
+        <a href="">Login</a>
+      </p>
+    </section>
+    <section class="img-container">
+      <div class="image">
+        <img src="thought-catalog-o0Qqw21-0NI-unsplash.jpg" />
+        <h1>
+          Kingdom Of <br />
+          Education
+        </h1>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
