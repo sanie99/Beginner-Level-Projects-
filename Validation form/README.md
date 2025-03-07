@@ -28,7 +28,7 @@ Invalid inputs trigger error messages, and successful entries receive confirmati
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/sanie/validation-form.git
+   git clone https://github.com/sanie99/validation-form.git
    ```
 
 ## File Structure
